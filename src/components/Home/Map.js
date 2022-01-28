@@ -22,9 +22,7 @@ import Geocoder from 'react-map-gl-geocoder'
 import 'mapbox-gl/dist/mapbox-gl.css';
 import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
 
-
-mapboxgl.accessToken = "pk.eyJ1IjoicGhlbnRoaXAiLCJhIjoiY2tpaWZyaHk2MDI0MTJ3b3VobmhoOXkweiJ9.kMSP2QLUNUARymwA3SlLqA";
-const mapboxToken = 'pk.eyJ1IjoicGhlbnRoaXAiLCJhIjoiY2tpaWZyaHk2MDI0MTJ3b3VobmhoOXkweiJ9.kMSP2QLUNUARymwA3SlLqA'
+const mapboxToken = 'token'
 function Map(props) {
     const navigate = useNavigate();  
     const mapContainerRef = useRef(null);
